@@ -15,6 +15,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 gen_*.py
+misc_gen/
 
 ==========================================
 Згенеровані дані та вивід пайплайну
