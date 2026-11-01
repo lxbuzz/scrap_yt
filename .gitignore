@@ -13,6 +13,9 @@ pycache/
 .Python
 pip-log.txt
 pip-delete-this-directory.txt
+
+gen_*.py
+
 ==========================================
 Згенеровані дані та вивід пайплайну
 (Safety rule: не шарити зібрані GLP-1 дані публічно)
