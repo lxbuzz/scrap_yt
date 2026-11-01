@@ -1,0 +1,47 @@
+
+==========================================
+Python & Virtual Environment
+==========================================
+.venv/
+venv/
+ENV/
+env/
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+==========================================
+Згенеровані дані та вивід пайплайну
+(Safety rule: не шарити зібрані GLP-1 дані публічно)
+==========================================
+output/
+Capture_.csv Capture_.xlsx
+Run_log_.csv Run_log_.xlsx
+Тимчасові lock-файли MS Excel (створюються під час відкриття таблиць)
+~*.xlsx~*.xls
+Якщо потрібно зберігати еталонний шаблон і конфіг у репозиторії:
+!scrap_out.xlsx
+!queries_config.csv
+==========================================
+Кеш yt-dlp та тимчасові дампи
+==========================================
+*.info.json
+*.part
+*.ytdl
+.cache/
+==========================================
+Налаштування IDE (VS Code / PyCharm) та ОС
+==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+Секрети та змінні середовища (якщо додасте ключі для Drive/LLM)
+.env
+.pem credentials.json token.json client_secret.json
